@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(119, 174, 137);
+    color: white;
+}
+h1{
+    color: rgb(218, 206, 44);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font-family: Georgia;
+    font-size:20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2{
+    color:rgb(22, 16, 18);
+
+
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+.column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
